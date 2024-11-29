@@ -32,13 +32,14 @@
     font-size: 1.2em;
     justify-content: center;
     align-items: center;
+    height:100vh; 
 }
 .footer {
     background-color:#938b7e;
     color:white;
     padding:1em;
-    /* width:10vw;
-    height:100vh;*/
+    /* width:10vw; */
+    /* height:100vh;  */
     text-align: center;
     display: grid;
     grid-template-rows: repeat(5, 1fr);
@@ -47,7 +48,7 @@
 }
 .hero {
     display: flex;
-    /* height: 100vh; */
+    height: 100vh;
     width:75vw;
     background-image: url(hero.png);
     background-position: center;
@@ -173,6 +174,11 @@ a:hover {
         grid-template-columns: repeat(4 1fr);
         grid-template-rows: repeat(1 1fr);
         width: 100vw;
+        height: 20vh;
+        justify-content: center;
+        place-items: center;
+        align-items: center;
+        /* background-color: #bab9b5; */
     }
     .home-icon {
         grid-column: 1;
@@ -192,10 +198,14 @@ a:hover {
     }
     .footer {
         height:10vh;
+        /* background-color: #100f0d; */
     }
     .hero {
-        height: 80vh;
+        height: 70vh;
         width:100%;
+    }
+    .about-icon, .con-icon, .home-icon, .pro-icon {
+        margin: 5px;
     }
 }
 @media (max-width:400px) {
@@ -209,7 +219,7 @@ a:hover {
     }
 }
 @media (max-width: 382) {
-    mg {
+    img {
         width:10px;
         height:10px;
     }
