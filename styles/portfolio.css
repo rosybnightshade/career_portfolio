@@ -137,9 +137,15 @@ box-shadow: 10px 5px 5px #938b7e;}
     box-shadow: 10px 5px 5px #473729;
 }
 .footer > p {
-    rotate: 180deg;
+    rotate: 90deg;
+    width: max-content;
+    height: max-content;
     letter-spacing: 2px;
-    grid-row-start: 2;
+    grid-row-start: 5;
+    font-size: larger;
+    display: flex;
+    place-content: center;
+    place-items: center;
     grid-row-end: 6;
     color:#010101;
     }
