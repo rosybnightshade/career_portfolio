@@ -88,7 +88,10 @@ img {
     height:100px;
     justify-content: center;
 }
-a:hover {color:#ff7f7f;}
+a:hover { color:#ff7f7f; }
+.about-icon, .home-icon, .pro-icon, .con-icon {
+    transition: all 0.3s ease;
+}
 .about-icon:hover,.home-icon:hover,.pro-icon:hover, .con-icon:hover {
     opacity: 100%;
     box-shadow: 10px 5px 5px #938b7e;
