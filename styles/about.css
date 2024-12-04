@@ -1,0 +1,20 @@
+.center {
+    display: flex;
+    
+}
+.image-box {
+    display:flex;
+    background-color: var(--pricolor);
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    place-items: center;
+    align-items:center;
+    margin: 5px;
+    border-radius: 50px;
+}.image-box > img {
+    width: 75%;
+    height: 75%;
+    border-radius: 10px;
+    aspect-ratio: 1;
+}
