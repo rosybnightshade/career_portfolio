@@ -143,35 +143,31 @@ a:hover { color:#ff7f7f; }
         display: block;
     }
     .header {
-        display: grid;
+        /* display: grid;
         grid-template-columns: repeat(4 1fr);
-        grid-template-rows: repeat(1 1fr);
+        grid-template-rows: repeat(1 1fr); */
+        display:flex;
+        flex-direction: row;
         width: 100vw;
         height: 20vh;
         justify-content: center;
         place-items: center;
-        align-items: center;
+        align-items:center;
         /* background-color: #bab9b5; */
     }
-    .home-icon {
-        grid-column: 1;
-        grid-row: 1;
-    }
-    .about-icon {
-        grid-column: 2;
-        grid-row: 1;
-    }
-    .pro-icon {
-        grid-column: 3;
-        grid-row: 1;
-    }
-    .con-icon {
-        grid-column: 4;
-        grid-row: 1;
+    .home-icon, .about-icon,.pro-icon,.con-icon {
+        border-radius: 0;
+        width: 25%;
+        height: 100%;
     }
     .footer {
         height:10vh;
+        display: flex;
         /* background-color: #100f0d; */
+    }
+    .footer > p {
+        rotate: 360deg;
+        grid-column: span 5;
     }
     .hero {
         height: 70vh;
