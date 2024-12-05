@@ -1,6 +1,5 @@
 .center {
     display: flex;
-    
 }
 .image-box {
     display:flex;
@@ -20,5 +19,4 @@
 }
 .yeehaw {
     display: flex;
-    justify-content: center;
 }

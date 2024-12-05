@@ -3,7 +3,7 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>About Me</title>
+    <title>Contact Me :&rpar;</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='styles/contact.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='styles/global.css'>
@@ -34,7 +34,42 @@
                 </div>
             </div>
     <div class="center">
-        
+        <!--name, email, phone number, times you're available, why, is it urgent-->
+        <!--use action & method to go to a seperate page when youre done-->
+        <!--new box appears asking them to confirm the information they put down-->
+        <form action="accept.html" method="post">
+            <fieldset>
+                <legend class="heading">Personal Information</legend>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="fname" placeholder="First Name" required><br>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lname" placeholder="Last Name" required><br>
+
+                <label for="number">Phone Number</label>
+                <input type="text" id="number" name="number" placeholder="123-456-7890" required><br>
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="youremail@domain.com" required>
+            </fieldset>
+
+            <fieldset>
+                <legend class="heading">Reasonable Information</legend>
+                <label for="choice">Reason for Contact</label><br>
+                <select id="choice" name="choice" required>
+                    <option value="Work with me :">Work With Me :&rpar;</option>
+                    <option value="Bug">Found a Bug on This Site / Project</option>
+                    <option value="dismantle">News Story Takedown Request</option>
+                </select><br>
+                <label for="summary">Additional Explanation</label><br>
+                <textarea id="summary" row="3" column="2" maxlength="200" required>
+
+                </textarea>
+            </fieldset>
+
+
+
+
+        </form>
     </div>  
 
     <div class="footer">
