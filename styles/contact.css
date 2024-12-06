@@ -1,0 +1,38 @@
+form {
+    width: 50%;
+    margin:10px;
+    background-color: var(--pricolor);
+    padding:10px;
+    margin:5px;
+    border-radius: 5px;
+}
+fieldset {
+    padding:5px;
+    margin:10px;
+}
+h1  {
+    background-color: white;
+    opacity: 50%;
+    margin:10px;
+    padding:10px;
+    border-radius: 5px;
+}
+legend {
+    font-size: 2em;
+}
+label {
+    font-size: 1.2em;
+}
+.social-media {
+    background-color: ;
+}
+.submit {
+    margin-left: 10px;
+}
+
+.socialmedia {
+    background-color: var(--pricolor);
+}
+.instagram, .nano, .indeed, .linkdin {
+    background-color: var(--seccolor);
+}

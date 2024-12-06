@@ -5,6 +5,7 @@
     --altcolor: #938b7e;
     --tricolor: #FFFFFF;
     --yee:#010101;
+    --idkanymore: red;
 }
 /* formatting */
 * {
@@ -14,7 +15,7 @@
 }
 a {
     text-decoration: none;
-    color: var(--altcolor);
+    color: var(--tricolor);
     font-family: "Sour Gummy", serif;
     font-optical-sizing: auto;
     font-weight: 100;
@@ -26,8 +27,15 @@ a {
 h1 {
     font-family: "Sour Gummy", serif;
     font-optical-sizing: auto;
-    font-weight: 200;
+    font-weight: 500;
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
+    color:var(--idkanymore);
+    font-size: 64px;
+}
+label, p, legend, input, select {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }

@@ -17,10 +17,11 @@
     border-radius: 5px;
     opacity: 50%;
     padding:1em;
-    color:red;
+    color:var(--idkanymore);
     flex-direction: column;
     text-align: center;
     font-size: 2em;
+    width: max-content;
 }
 
 a {
@@ -35,4 +36,9 @@ img {
 .intro:hover {
     opacity:100%;
     box-shadow: 10px 5px 5px var(--pricolor);
+}
+@media (max-width: 997px) {
+    .hero, .header {
+        height:100%;
+    }
 }
