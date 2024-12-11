@@ -1,7 +1,18 @@
+.center {
+    overflow-y: scroll;
+}
+::-webkit-scrollbar-track {
+    background: var(--tricolor);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--pricolor);
+}
+::-webkit-scrollbar-thumb:hover {
+    background: var(--pricolor);
+}
 header {
     display: flex;
 }
-
 .navigation {
     display:flex;
     justify-content: flex-end;
@@ -20,5 +31,29 @@ h1 {
     width: 50%;
 }
 .project {
-    
+    background-color: var(--pricolor);
+    padding: 5px;
+    margin:10px;
+    display:flex;
+    box-shadow: 5px 5px 5px var(--seccolor);
+}
+.img {
+    width: 200px;
+    height: 150px;
+    background-color: white;
+}
+.inside {
+    display: flex;
+    flex-direction: column;
+    text-wrap:wrap;
+}
+.inside > a {
+    margin: 5px;
+    justify-content: center;
+    align-items:center;
+}
+.inside > p {
+    color: white;
+    margin: 5px;
+    text-align: center;
 }
