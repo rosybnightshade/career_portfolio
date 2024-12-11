@@ -5,6 +5,7 @@ form {
     padding:10px;
     margin:5px;
     border-radius: 5px;
+    color: var(--tricolor);
 }
 fieldset {
     padding:5px;
@@ -22,9 +23,6 @@ legend {
 }
 label {
     font-size: 1.2em;
-}
-.social-media {
-    background-color: ;
 }
 .submit {
     margin-left: 10px;
