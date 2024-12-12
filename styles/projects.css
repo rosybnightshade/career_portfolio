@@ -26,12 +26,13 @@ h1 {
     background-color: var(--pricolor);
     padding: 5px;
     margin:10px;
-    display:flex;
     box-shadow: 5px 5px 5px var(--seccolor);
+    display:grid;
+    grid-template-columns: .5fr 2fr;
 }
 .img {
-    width: 200px;
-    height: 150px;
+    width: 100%;
+    height: 100%;
     background-color: white;
 }
 .inside {
@@ -46,6 +47,6 @@ h1 {
 }
 .inside > p {
     color: white;
-    margin: 5px;
+    margin: 10px;
     text-align: center;
 }

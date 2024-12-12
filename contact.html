@@ -44,16 +44,51 @@
         <!--use action & method to go to a seperate page when youre done-->
         <!--new box appears asking them to confirm the information they put down-->
         <h1>Have Something To Say?</h1>
+        <div class="body">
         <form action="accept.html" method="post">
-           
+        <fieldset>
+            <legend>Your Information</legend>
+           <label for="fname">First Name</label>
+           <input name="fname" id="fname" type="text"><br>
+
+           <label for="lname">Last Name</label>
+           <input name="lname" id="lname" type="text"><br>
+
+           <label for="email">Email Address</label>
+           <input name="email" id="email" type="email"><br>
+
+           <label for="num">Phone Number</label>
+           <input name="num" id="num" type="text"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Additonal Information</legend>
+            <label for="add">Elaborate on Your Request</label><br>
+           <textarea name="add" id="add" maxlength="200"></textarea><br>
+
+        </fieldset>
+        <button type="submit">Submit!</button>
         </form>
         <!--310w, 308h-->
-        <div class="socialmedia" style="background-color: white;">
-            <a href="https://www.instagram.com/forever.lynightshade/"><img src="images/insta-removebg-preview.png" target="_blank"></a>
+        <div class="socialmedia">
+            <h2>Reach Out!</h2>
+            <div class="insta">
+            <a href="https://www.instagram.com/forever.lynightshade/"><img src="images/insta.png"></a>
+            <p>Instagram</p>
+            <p>@forever.lynightshade</p>
+            </div>
+            <div class="nano">
             <a href="https://nanowrimo.org/participants/rosynightshade"><img src="images/nano.png"></a>
-            <a href="https://profile.indeed.com/?hl=en_US&co=US&from=gnav-js-onboarding--jso-ui"><img src="</a>
+            <p>NaNoWriMo</p>
+            <p>@RosyBNightshade</p>
+            </div>
+            <div class="indeed">
+            <a href="https://profile.indeed.com/?hl=en_US&co=US&from=gnav-js-onboarding--jso-ui"><img src="images/indeed.png"></a>
+            <p>Indeed</p>
+            <p>@oliviarschuetz</p>
+            </div>
         </div>
     </div>  
+</div>
 
     <div class="footer">
         <img src="images/portfolio logo.png">
