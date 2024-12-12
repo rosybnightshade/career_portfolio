@@ -1,14 +1,6 @@
 .center {
     overflow-y: scroll;
-}
-::-webkit-scrollbar-track {
-    background: var(--tricolor);
-}
-::-webkit-scrollbar-thumb {
-    background: var(--pricolor);
-}
-::-webkit-scrollbar-thumb:hover {
-    background: var(--pricolor);
+    scrollbar-color: var(--pricolor);
 }
 header {
     display: flex;

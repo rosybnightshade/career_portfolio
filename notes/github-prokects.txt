@@ -1,9 +1,9 @@
 github projects: where they're at in this mess
 
-collage: week ten, mess
+collage: week ten, mess DONE
 
 adventure club / create a form HTML forms: week fifteen, day one
 
-blog web page: week thirteen, day four
+blog web page: week thirteen, day four DONE
 
-resumes: week thirteen, day
+resumes: week thirteen, day DONE
