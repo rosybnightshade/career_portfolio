@@ -50,3 +50,17 @@ h1 {
     margin: 10px;
     text-align: center;
 }
+header{
+    position: sticky;
+    top:1px;
+    background-color: var(--altcolor);
+}
+input[type=search] {
+    position: sticky;
+    top: 110px;
+    margin: 10px;
+    width: 94%;
+}
+body::-webkit-scrollbar-track {
+    background-color: var(--seccolor);
+}
