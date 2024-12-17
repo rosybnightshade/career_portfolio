@@ -1,6 +1,7 @@
 .center {
     display:flex;
     flex-direction: column;
+    text-align: center;
     /* grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
     grid-template-areas: 
@@ -44,6 +45,9 @@ header {
 .programs {
     margin-top: 20px;
     place-items: center;
+    background-color: var(--pricolor);
+    color: var(--tricolor);
+    margin-left:5px;
 }
 .introduction_info > .row > a {
     background-color: var(--pricolor);
@@ -52,4 +56,31 @@ header {
     padding:10px;
     place-items:center;
     margin-top:30px;
+}
+.list-items {
+    display:none;
+}
+
+@media (max-width:768px) {
+    .introduction_info {
+        flex-direction: column;
+    }
+}
+@media (max-width:864px) {
+    header, .programs {
+        margin:10px;
+    }
+}
+@media (max-width:407px) {
+    .introduction_info > img {
+        width:20em;
+        height:20em;
+    }
+}
+@media (max-width:328px) {
+    .list-items {
+        display:block;
+        margin:10px;
+        list-style-type: square;
+    }
 }

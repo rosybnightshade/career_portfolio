@@ -1,0 +1,12 @@
+header{
+    background-color: white;
+    opacity: 50%;
+    border-radius: 50px;
+    margin:5px;
+}
+.center, h2, p, li {
+    padding:10px;
+}
+header {
+    text-align: center;
+}

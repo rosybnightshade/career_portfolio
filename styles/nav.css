@@ -160,7 +160,7 @@ a:hover { color: var(--seccolor); }
         flex-direction: row;
         font-size:0.7em;
     }
-    .hero {
+    .hero, .center {
         height: 70vh;
         width:100%;
     }

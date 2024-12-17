@@ -24,9 +24,9 @@ a {
         "wdth" 100;
     font-size: 1.2em;
 }
-h1 {
-    color:var(--idkanymore);
+h1 {    
     font-size: 64px;
+    color:var(--idkanymore);
 
 }
 h1, h2, h3, h4, h5, h6 {
@@ -36,10 +36,19 @@ h1, h2, h3, h4, h5, h6 {
     font-style: normal;
     font-variation-settings:
         "wdth" 100;
+
 }
 
 label, p, legend, input, select {
     font-family: "Montserrat Alternates", sans-serif;
     font-weight: 500;
     font-style: normal;
+}
+.center, iframe {
+    overflow-y:auto;
+    scrollbar-color: #473729 #938b7e;
+    
+    }
+ul > li {
+    list-style-type: none;
 }
