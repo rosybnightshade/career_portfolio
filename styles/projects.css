@@ -3,7 +3,6 @@ header {
 }
 .navigation {
     display:flex;
-    /* justify-content: flex-end; */
 }
 .navigation > a {
     padding: 10px;
