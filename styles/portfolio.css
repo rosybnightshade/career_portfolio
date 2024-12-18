@@ -24,15 +24,6 @@
     width: max-content;
 }
 
-a {
-    display: flex;
-    flex-direction: column;
-}
-img {
-    width:100px;
-    height:100px;
-    justify-content: center;
-}
 .intro:hover {
     opacity:100%;
     box-shadow: 10px 5px 5px var(--pricolor);

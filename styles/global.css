@@ -44,9 +44,9 @@ label, p, legend, input, select {
     font-weight: 500;
     font-style: normal;
 }
-.center, iframe {
+.center{
     overflow-y:auto;
-    scrollbar-color: #473729 #938b7e;
+    scrollbar-color: var(--pricolor) var(--altcolor);
     
     }
 ul > li {

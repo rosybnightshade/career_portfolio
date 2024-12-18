@@ -11,6 +11,10 @@ header {
     background-color: var(--pricolor);
     justify-content: center;
 }
+.navigation > a:hover {
+    opacity:100%;
+    box-shadow: 10px 5px 5px var(--pricolor);
+}
 h1 {
     background-color: white;
     opacity: 50%;
@@ -18,6 +22,10 @@ h1 {
     padding:5px;
     width: 50%;
     text-align: center;
+}
+h1:hover {
+    opacity:100%;
+    box-shadow: 10px 5px 5px var(--pricolor);
 }
 .project {
     background-color: var(--pricolor);
@@ -33,10 +41,12 @@ h1 {
     aspect-ratio: 1;
     background-color: white;
 }
+.project:hover {
+    box-shadow: 10px 5px 5px var(--idkanymore);
+}
 .inside {
     display: flex;
     flex-direction: column;
-    text-wrap:wrap;
 }
 .inside > a {
     margin: 5px;
@@ -53,10 +63,4 @@ header{
     top:1px;
     background-color: var(--altcolor);
     /* flex-wrap: wrap; */
-}
-input[type=search] {
-    position: sticky;
-    top: 110px;
-    margin: 10px;
-    width: 94%;
 }
