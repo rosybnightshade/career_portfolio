@@ -179,7 +179,7 @@ a:hover { color: var(--seccolor); }
         width: min-content;
     }
 }
-@media (max-width: 382px) {
+@media (max-width: 432px) {
     .home-icon, .pro-icon, .con-icon, .about-icon {
         width: max-content;
         height:max-content;
