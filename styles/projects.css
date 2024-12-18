@@ -6,13 +6,16 @@ header {
 }
 .navigation {
     display:flex;
-    /* justify-content: flex-end; */
 }
 .navigation > a {
     padding: 10px;
     margin:10px;
     background-color: var(--pricolor);
     justify-content: center;
+}
+.navigation > a:hover {
+    opacity:100%;
+    box-shadow: 10px 5px 5px var(--pricolor);
 }
 h1 {
     background-color: white;
@@ -22,6 +25,10 @@ h1 {
     min-width: 50%;
     text-align: center;
     height: 80%;
+}
+h1:hover {
+    opacity:100%;
+    box-shadow: 10px 5px 5px var(--pricolor);
 }
 .project {
     background-color: var(--pricolor);
@@ -37,10 +44,12 @@ h1 {
     aspect-ratio: 1;
     background-color: white;
 }
+.project:hover {
+    box-shadow: 10px 5px 5px var(--idkanymore);
+}
 .inside {
     display: flex;
     flex-direction: column;
-    text-wrap:wrap;
 }
 .inside > a {
     margin: 5px;

@@ -1,0 +1,7 @@
+- make projects page responsive
+- finish the layout and iframe of the contact page
+- make contact page responsive
+- clear empty space in the about page
+- fill out resume Information
+- edit iframe scrollbars
+- link the rest of the pdf projects
