@@ -43,52 +43,60 @@
         <header>
             <h1>Have Something to Say? Say It!</h1>
         </header>
-        <div class="introduction_info">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d53169.90919404866!2d-112.21116165830071!3d33.602208303966016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1734559886207!5m2!1sen!2sus" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="location-info">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d53169.90919404866!2d-112.21116165830071!3d33.602208303966016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1734559886207!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </iframe>
             <form class="form">
                 <fieldset>
                     <legend>User Information</legend>
 
                     <label for="fname">First Name</label>
-                    <input name="fname" id="fname" type="text"><br>
+                    <input name="fname" id="fname" type="text" placeholder="Jane"><br>
 
                     <label for="lname">Last Name</label>
-                    <input name="lname" id="lname" type="text"><br>
+                    <input name="lname" id="lname" type="text" placeholder="Doe"><br>
 
                     <label for="email">User Email Address</label>
-                    <input name="email" id="email" type="email"><br>
+                    <input name="email" id="email" type="email" placeholder="example@domain.com"><br>
 
                     <label for="phnum">Phone Number</label>
-                    <input name="phnum" id="phnum" type="text"><br>
+                    <input name="phnum" id="phnum" type="text" placeholder="(123)-456-7890"><br>
+
+                    <input name="mobile" id="mobile" type="radio">
+                    <label for ="mobile">Mobile</label>
+
+                    <input name="home" id="home" type="radio">
+                    <label for ="home">Home</label>
+
+                    <input name="work" id="work" type="radio">
+                    <label for ="work">Work</label>
                 </fieldset>
 
                 <fieldset>
                     <legend>Additional Information</legend>
 
                     <label for="textarea">Reason for Contact</label>
-                    <textarea></textarea>
+                    <textarea placeholder="Collaboration Request, Journalism Critque, Research Queries, etc"></textarea>
                 </fieldset>
+
+                <button type="submit" onclick="function submitButton()">Submit!</button>
+                <p id="submitted" >Submitted! Check Back In A Couple Days!</p>
+
+                <script>
+                    function submitButton (){
+                        var showField = document.getElementById("submitted");
+                    
+                        showField.style.display = "block";
+                    }
+                    </script>
             </form>
             </div>
         
 
-        <div class="programs">
-            <h3>These are the programs that I use to complete my vast array of projects!</h3>
-
-            <img src="images/indesign.png" alt="Adobe InDesign Logo" title="Adobe InDesign">
-            <img src="images/milanote.jfif" alt="Milanote Logo" title="Milanote">
-            <img src="images/vsc.png" alt="Visual Studio Code Logo" title="Visual Studio Code">
-            <img src="images/novelist.png" alt="Novelist Logo" title="Novelist">
-
-        <div class="list-items">
-            <li>Adobe InDesign</li>
-            <li>Milanote</li>
-            <li>Visual Studio Code</li>
-            <li>Novelist</li>
+        <div class="socials">
+           <a href="https://profile.indeed.com/?hl=en_US&co=US&from=gnav-homepage"><img src="images/indeed.png">@oliviaschuetz11</a>
+           <a href="instagram.com"><img src="images/insta.png">@forever.lynightshade</a>
         </div>
-        </div>
-    </div>
     </div>
 
     <div class="footer">
