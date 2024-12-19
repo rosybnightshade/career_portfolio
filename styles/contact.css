@@ -34,10 +34,8 @@ textarea {
 }
 .socialmedia {
     background-color: var(--altcolor);
-    justify-content: flex-end;
     display: flex;
     flex-direction: column;
-    grid-column: 2;
     width:100%;
     text-align: center;
 }
@@ -47,14 +45,7 @@ textarea {
     padding:5px;
     place-items:center;
 }
-.insta, .indeed, .nano {
-    justify-content: center;
-}
-.body {
-    display:grid;
-    grid-template-columns: 2fr 1fr; 
-}
 button [type=submit] {
     width: 90%;
-    padding:5px;
+    padding:10px;
 }
