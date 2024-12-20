@@ -56,13 +56,24 @@ textarea {
     border-radius: 50%;
     padding:10px;
 }
+.socials > a {
+    text-align: center;
+}
 .socials {
     background-color: var(--pricolor);
     color: var(--tricolor);
-    margin-left:5px;
+    margin:10px;
     display:flex;
     flex-direction: row;
     place-content: center;
     margin:10px;
     padding:10px;
+}
+header > h1 {
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .location-info {
+        flex-direction: column;
+    }
 }

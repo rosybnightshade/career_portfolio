@@ -189,7 +189,7 @@ a:hover { color: var(--seccolor); }
         font-size: 0.7em;
     }
 }
-@media (max-width: 328px) {
+@media (max-width: 435px) {
     .about-icon, .con-icon, .home-icon, .pro-icon {
         display:flex;
         width: 90%;
@@ -197,6 +197,9 @@ a:hover { color: var(--seccolor); }
         text-align: center;
         justify-content: center;
         align-items: center;
+    }
+    .socials {
+        display:none;
     }
     .header {
         flex-direction: column;
